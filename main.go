@@ -6,12 +6,12 @@ import (
 )
 
 const (
-	webUrl = "http://www.zhenai.com/zhenghun"
+	WebUrl = "http://www.zhenai.com/zhenghun"
 )
 
 func main() {
 	engine.Run(engine.Request{
-		Url:        webUrl,
+		Url:        WebUrl,
 		ParserFunc: parser.ParseCityList,
 	})
 }
